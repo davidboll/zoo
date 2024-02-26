@@ -1,5 +1,6 @@
 import express from "express";
 import path from "path";
+import animalsRouter from "./routes/animals.js";
 
 const app = express();
 const port = process.env.PORT || 3007;
@@ -12,9 +13,11 @@ app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.get("/", (req, res) => {
+ app.get("/", (req, res) => {
   res.render("pages/index.ejs")
 });
+
+app.use("/animals", animalsRouter);
 
 app.listen(port, () => {
   console.log(`Server is on and listening to ${port}`);

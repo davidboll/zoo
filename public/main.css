@@ -1,3 +1,30 @@
-body {
-    background-color: aqua;
+* { 
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #EEABC4;
+    margin: 0;
+}
+
+header { 
+    background-color: #4B2840;
+    margin: 0;
+}
+.nav-menu {
+    margin: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+  
+ }
+
+ ul { 
+    list-style-type: none;
+ }
+
+ li { 
+    padding: 10px;
+ }
+
+
