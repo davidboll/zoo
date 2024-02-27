@@ -54,7 +54,7 @@ $(() => {
     $(".main-content")
       .empty()
       .append(`
-        <img src="./img/${animal.name}.jpg" class="animal-img" alt="">
+        <img src="/img/${animal.name}.jpg" class="animal-img" alt="">
         <h3>Name: ${animal.name}</h3>
         <p>Average life span: ${animal.lifespan}</p>
         <p>Type: ${animal.group}</p>

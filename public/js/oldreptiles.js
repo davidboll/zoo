@@ -25,8 +25,8 @@ $(() => {
     "90cm",
     "1kg",
     "Northern Australia",
-    "./img/frilled-lizard-small.jpeg",
-    "./img/frilled-lizard-big.jpeg",
+    "/img/frilled-lizard-small.jpeg",
+    "/img/frilled-lizard-big.jpeg",
     "reptile"
   );
 
@@ -38,8 +38,8 @@ $(() => {
     "50cm",
     "0.5kg",
     "Eastern Australia",
-    "./img/blue-tongue-small.jpeg",
-    "./img/blue-thong-big.jpeg",
+    "/img/blue-tongue-small.jpeg",
+    "/img/blue-thong-big.jpeg",
     "reptile"
   );
 
@@ -51,8 +51,8 @@ $(() => {
     "200cm",
     "3kg",
     "Central Australia",
-    "./img/taipan-snake-small.jpeg",
-    "./img/taipan-snake-big.jpeg",
+    "/img/taipan-snake-small.jpeg",
+    "/img/taipan-snake-big.jpeg",
     "reptile"
   );
 
@@ -64,8 +64,8 @@ $(() => {
     "70cm",
     "0.7kg",
     "Northern Australia",
-    "./img/frilled-dragon-small.jpeg",
-    "./img/frilled-dragon-big.jpeg",
+    "/img/frilled-dragon-small.jpeg",
+    "/img/frilled-dragon-big.jpeg",
     "reptile"
   );
 
@@ -77,8 +77,8 @@ $(() => {
     "120cm",
     "2kg",
     "Southern Australia",
-    "./img/stimson-small.jpeg",
-    "./img/stimson-big.jpeg",
+    "/img/stimson-small.jpeg",
+    "/img/stimson-big.jpeg",
     "reptile"
   );
 
@@ -90,8 +90,8 @@ $(() => {
     "150cm",
     "5kg",
     "Various regions in Australia",
-    "./img/goana-small.jpeg",
-    "./img/goanna-big.jpeg",
+    "/img/goana-small.jpeg",
+    "/img/goanna-big.jpeg",
     "reptile"
   );
 

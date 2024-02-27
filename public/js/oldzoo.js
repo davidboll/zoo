@@ -158,8 +158,46 @@ $(() => {
     "./img/koala.jpg",
     "mammals"
   );
+        const kookaburra = new Animal(
+  "Kookaburra",
+  "15 years",
+  "Insects, small mammals, and reptiles",
+  "Known as the 'laughing kookaburra,' these birds are famous for their distinctive vocalization that sounds like human laughter. They are carnivorous and often perch on high vantage points, waiting to swoop down on their prey. Kookaburras are social birds and are found in various habitats across Australia.",
+  "45cm",
+  "0.5kg",
+  "Eastern Australia",
+  "/img/kookaburra-small.jpeg",
+  "/img/kookaburra-big.jpeg",
+  "bird"
+);
+    const lorikeet = new Animal(
+  "Rainbow Lorikeet",
+  "20 years",
+  "Nectar, pollen, fruits, and seeds",
+  "The Rainbow Lorikeet is a colorful and highly social bird. Their vibrant plumage features a spectrum of colors, and they are often found in flocks. Lorikeets have specialized brush-tipped tongues for feeding on nectar and pollen. They are common in coastal regions and urban areas of Australia.",
+  "30cm",
+  "0.15kg",
+  "Various regions in Australia",
+  "/img/lorikeet-small.jpeg",
+  "/img/lorikeet-big.jpeg",
+  "bird"
+);
 
-  let arrayOfAnimals = [frillNeckedLizard, blueTongued, taipanSnake, frilledDragon, stimsonPython, goanna, cassowary, echidna, wallabies, tasmanian_Devil, koala];
+const emu = new Animal(
+  "Emu",
+  "20 years",
+  "Plants, insects, small vertebrates",
+  "The Emu is the world's second-largest bird, known for its flightless nature. Emus have strong, long legs and are excellent runners. They are found in various habitats, including forests, savannas, and deserts. Emus are essential to Australian culture, often depicted in indigenous art and mythology.",
+  "1.9m",
+  "36kg",
+  "Throughout Australia",
+  "/img/emu-small.jpeg",
+  "/img/emu-big.jpeg",
+  "bird"
+);
+
+
+  let arrayOfAnimals = [frillNeckedLizard, blueTongued, taipanSnake, frilledDragon, stimsonPython, goanna, cassowary, echidna, wallabies, tasmanian_Devil, koala, kookaburra, lorikeet, emu ];
 
   const showAnimalInfo = (animal) => {
     $(".welcome").addClass("inactive");
