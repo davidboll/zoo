@@ -3,12 +3,12 @@
 }
 
 body {
-    background-color: #EEABC4;
+    background-color: #EAD2AC;
     margin: 0;
 }
 
 header { 
-    background-color: #4B2840;
+    background-color: #9CAFB7;
     margin: 0;
 }
 .nav-menu {
@@ -27,4 +27,20 @@ header {
     padding: 10px;
  }
 
+ .wrapper { 
+    height: 100vh;
+    display: flex;
+   
+ }
 
+.main-content {
+    flex: 3; 
+    background-color: #E6B89C;
+    padding: 20px; 
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #FE938C;
+    height: 100%;
+}
