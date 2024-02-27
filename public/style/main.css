@@ -53,3 +53,7 @@ header {
     margin: 0;
     align-self: center;
   }
+
+  .animal { 
+    cursor: pointer;
+  }
