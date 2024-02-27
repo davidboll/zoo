@@ -28,7 +28,7 @@ $(() => {
     "Northern Australia",
     "./img/frilled-lizard-small.jpeg",
     "./img/frilled-lizard-big.jpeg",
-    "reptile"
+    "reptiles"
   );
 
   const blueTongued = new Animal(
@@ -41,7 +41,7 @@ $(() => {
     "Eastern Australia",
     "./img/blue-tongue-small.jpeg",
     "./img/blue-thong-big.jpeg",
-    "reptile"
+    "reptiles"
   );
 
   const taipanSnake = new Animal(
@@ -54,7 +54,7 @@ $(() => {
     "Central Australia",
     "./img/taipan-snake-small.jpeg",
     "./img/taipan-snake-big.jpeg",
-    "reptile"
+    "reptiles"
   );
 
   const frilledDragon = new Animal(
@@ -67,7 +67,7 @@ $(() => {
     "Northern Australia",
     "./img/frilled-dragon-small.jpeg",
     "./img/frilled-dragon-big.jpeg",
-    "reptile"
+    "reptiles"
   );
 
   const stimsonPython = new Animal(
@@ -80,7 +80,7 @@ $(() => {
     "Southern Australia",
     "./img/stimson-small.jpeg",
     "./img/stimson-big.jpeg",
-    "reptile"
+    "reptiles"
   );
 
   const goanna = new Animal(
@@ -93,27 +93,25 @@ $(() => {
     "Various regions in Australia",
     "./img/goana-small.jpeg",
     "./img/goanna-big.jpeg",
-    "reptile"
+    "reptiles"
   );
 
 
   const cassowary = new Animal(
     "Cassowary",
     "20 years",
-    "bird",
     "Plants matter like fruit, insects and small animals like mice amd lizards",
     "It’s not hard to imagine that cassowaries are descended from dinosaur ancestors. The largest cassowaries can stand as high as six feet and weigh up to 160 pounds.   These large birds cannot fly, but their extremely powerful legs propel them at great speeds. They are strong swimmers and can move quickly on both land and water. Cassowaries are shy and they are usually hard to spot, at least in their natural rain forest habitats. They are not overly aggressive, and attacks are rare. But they can do a lot of damage if they are provoked or angered. Cassowary attacks have occasionally been deadly, including a recent one which occurred in 2019, at a private collection of caged birds in Florida",
     "1.7 m",
     "44 kg",
     "./img/Cassowary.jpg",
     "./img/Cassowary.jpg",
-    "bird"
+    "birds"
   );
 
   const echidna = new Animal(
     "Echidna",
     "50 years",
-    "mammals",
     "insects such as ants and termites, beetle larvae and worms",
     "Echidnas, also called spiny anteaters, are walking contradictions. They are mammals, but they lay eggs. They are often classified as long- or sort-beaked, but don't have beaks at all, in the traditional sense; they have fleshy noses that can be either on the long side or rather short. They don't really look like true anteaters (Myrmecophaga tridactyla), either, and they are not closely related to them. They are spiny, though; their bodies are covered with hollow, barbless quills. Echidnas are monotremes, egg-laying mammals. The only other living monotreme is the platypus.",
     "76 cm",
@@ -144,7 +142,7 @@ $(() => {
     'south of Australia.',
     "./img/Tasmanian-Devil.jpg",
     "./img/Tasmanian-Devil.jpg",
-    "Mammals"
+    "mammals"
   );
   const koala = new Animal(
     "Koala",
@@ -161,26 +159,26 @@ $(() => {
         const kookaburra = new Animal(
   "Kookaburra",
   "15 years",
-  "Insects, small mammals, and reptiles",
-  "Known as the 'laughing kookaburra,' these birds are famous for their distinctive vocalization that sounds like human laughter. They are carnivorous and often perch on high vantage points, waiting to swoop down on their prey. Kookaburras are social birds and are found in various habitats across Australia.",
+  "Insects, small mammals, and reptiless",
+  "Known as the 'laughing kookaburra,' these birdss are famous for their distinctive vocalization that sounds like human laughter. They are carnivorous and often perch on high vantage points, waiting to swoop down on their prey. Kookaburras are social birds and are found in various habitats across Australia.",
   "45cm",
   "0.5kg",
   "Eastern Australia",
   "/img/kookaburra-small.jpeg",
   "/img/kookaburra-big.jpeg",
-  "bird"
+  "birds"
 );
     const lorikeet = new Animal(
   "Rainbow Lorikeet",
   "20 years",
   "Nectar, pollen, fruits, and seeds",
-  "The Rainbow Lorikeet is a colorful and highly social bird. Their vibrant plumage features a spectrum of colors, and they are often found in flocks. Lorikeets have specialized brush-tipped tongues for feeding on nectar and pollen. They are common in coastal regions and urban areas of Australia.",
+  "The Rainbow Lorikeet is a colorful and highly social birds. Their vibrant plumage features a spectrum of colors, and they are often found in flocks. Lorikeets have specialized brush-tipped tongues for feeding on nectar and pollen. They are common in coastal regions and urban areas of Australia.",
   "30cm",
   "0.15kg",
   "Various regions in Australia",
   "/img/lorikeet-small.jpeg",
   "/img/lorikeet-big.jpeg",
-  "bird"
+  "birds"
 );
 
 const emu = new Animal(
@@ -193,7 +191,7 @@ const emu = new Animal(
   "Throughout Australia",
   "/img/emu-small.jpeg",
   "/img/emu-big.jpeg",
-  "bird"
+  "birds"
 );
 
 
@@ -213,7 +211,7 @@ const emu = new Animal(
       <p class="animal-p length">This animal is usually ${animal.length}</p>
       <p class="animal-p weight">This animal usually weighs ${animal.weight}</p>
       <p class="animal-p location">This animal usually lives in ${animal.location}</p>
-      <p class="animal-p link"><a href="./${animal.group}.html">This animal belongs to the ${animal.group} group!</a></p>
+      <p class="animal-p link"><a href="/animals/${animal.group}/">This animal belongs to the ${animal.group} group!</a></p>
     `
       )
       .hide()
