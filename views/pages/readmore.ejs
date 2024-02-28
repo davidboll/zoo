@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head") %>
+<body>
+
+<h1>Read More</h1>
+
+<!-- Display details of the selected animal -->
+<% if (selectedAnimal) {  %>
+<h2>Name: <%= selectedAnimal.name %></h2>
+<p>Lifespan: <%= selectedAnimal.lifespan %></p>
+<%  } %>
+</body>
+</html>
