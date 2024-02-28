@@ -57,6 +57,8 @@ li {
   height: 100%;
   flex: 1;
   padding: 20px;
+  border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .main-content {
@@ -66,6 +68,7 @@ li {
 .sidebar {
   background-color: #fe938c;
   height: auto;
+  margin: 0;
 }
 
 .animal-img {
@@ -78,8 +81,22 @@ li {
 
 .animal {
   cursor: pointer;
+  transition: all 0.5s;
+  padding: 2px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-bottom: 7px; 
+   border: 2px solid transparent; 
+   border-radius: 7px;
 }
 
+.animal:hover { 
+ background-color: #9cafb7;
+  border-color: #7a95a5; 
+  transform: scale(1.05); 
+
+}
 p.animal {
   font-size: 0.8rem;
 }
