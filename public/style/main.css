@@ -80,7 +80,7 @@ p.animal {
 
   .sidebar {
     flex: 1;
-    height: 100%; /* Full height for sidebar */
+    height: 100%;
   }
 
   p.animal {
