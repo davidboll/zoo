@@ -1,5 +1,5 @@
- class Animal {
-    constructor(name, lifespan, food, description, length, weight, location, smallimg, bigimg, group) {
+class Animal {
+    constructor(name, lifespan, food, description, length, weight, location, smallimg, bigimg, group, index) {
       this.name = name;
       this.lifespan = lifespan;
       this.food = food;
@@ -10,6 +10,7 @@
       this.smallimg = smallimg;
       this.bigimg = bigimg;
       this.group = group;
+      this.index = index; 
     }
   }
   const frillNeckedLizard = new Animal(
@@ -22,7 +23,8 @@
     "Northern Australia",
     "./img/frilled-lizard-small.jpeg",
     "./img/frilled-lizard-big.jpeg",
-    "reptiles"
+    "reptiles",
+    "1"
   );
 
   const blueTongued = new Animal(
@@ -35,7 +37,8 @@
     "Eastern Australia",
     "./img/blue-tongue-small.jpeg",
     "./img/blue-thong-big.jpeg",
-    "reptiles"
+    "reptiles",
+    "2"
   );
 
   const taipanSnake = new Animal(
@@ -48,7 +51,8 @@
     "Central Australia",
     "./img/taipan-snake-small.jpeg",
     "./img/taipan-snake-big.jpeg",
-    "reptiles"
+    "reptiles",
+    "3"
   );
 
   const frilledDragon = new Animal(
@@ -61,7 +65,8 @@
     "Northern Australia",
     "./img/frilled-dragon-small.jpeg",
     "./img/frilled-dragon-big.jpeg",
-    "reptiles"
+    "reptiles",
+    "4"
   );
 
   const stimsonPython = new Animal(
@@ -74,7 +79,8 @@
     "Southern Australia",
     "./img/stimson-small.jpeg",
     "./img/stimson-big.jpeg",
-    "reptiles"
+    "reptiles",
+    "5"
   );
 
   const goanna = new Animal(
@@ -87,7 +93,8 @@
     "Various regions in Australia",
     "./img/goana-small.jpeg",
     "./img/goanna-big.jpeg",
-    "reptiles"
+    "reptiles",
+    "6"
   );
 
 
@@ -100,7 +107,9 @@
     "44 kg",
     "./img/Cassowary.jpg",
     "./img/Cassowary.jpg",
-    "birds"
+    "birds",
+    "7"
+
   );
 
   const echidna = new Animal(
@@ -112,7 +121,8 @@
     "10 kg",
     "./img/Echidna.jpg",
     "./img/Echidna.jpg",
-    "mammals"
+    "mammals",
+    "8"
   );
   const wallabies = new Animal(
     "Wallabies",
@@ -124,7 +134,8 @@
     "mountain habitats in isolated portions of Australia.",
     "./img/Wallabies.jpg",
     "./img/Wallabies.jpg",
-    "mammals"
+    "mammals",
+    "9"
   );
   const tasmanian_Devil = new Animal(
     "Tasmanian-Devil",
@@ -136,7 +147,8 @@
     'south of Australia.',
     "./img/Tasmanian-Devil.jpg",
     "./img/Tasmanian-Devil.jpg",
-    "mammals"
+    "mammals",
+    "10"
   );
   const koala = new Animal(
     "Koala",
@@ -148,7 +160,8 @@
     "the eucalyptus forests of southeastern and eastern Australia",
     "./img/koala.jpg",
     "./img/koala.jpg",
-    "mammals"
+    "mammals",
+    "11"
   );
         const kookaburra = new Animal(
   "Kookaburra",
@@ -160,7 +173,8 @@
   "Eastern Australia",
   "/img/kookaburra-small.jpeg",
   "/img/kookaburra-big.jpeg",
-  "birds"
+          "birds",
+  "12"
 );
     const lorikeet = new Animal(
   "Rainbow Lorikeet",
@@ -172,7 +186,8 @@
   "Various regions in Australia",
   "/img/lorikeet-small.jpeg",
   "/img/lorikeet-big.jpeg",
-  "birds"
+      "birds",
+  "13"
 );
 
 const emu = new Animal(
@@ -185,9 +200,9 @@ const emu = new Animal(
   "Throughout Australia",
   "/img/emu-small.jpeg",
   "/img/emu-big.jpeg",
-  "birds"
+  "birds",
+  "14"
 );
-
 
 let arrayOfAnimals = [frillNeckedLizard, blueTongued, taipanSnake, frilledDragon, stimsonPython, goanna, cassowary, echidna, wallabies, tasmanian_Devil, koala, kookaburra, lorikeet, emu];
   

@@ -228,7 +228,7 @@ const emu = new Animal(
       <p class="animal-p weight">This animal usually weighs ${animal.weight}</p>
       <p class="animal-p location">This animal usually lives in ${animal.location}</p>
       <p class="animal-p link"><a href="/animals/${animal.group}/">This animal belongs to the ${animal.group} group!</a></p>
-    <a href="/ReadMore?index=${animal.index}" class="read-more-btn">Read More</a>
+    <a href="/ReadMore?index=${animal.index}" class="read-more-btn"> <button type="submit"> Read More </button> </a>
 
     `
       )
