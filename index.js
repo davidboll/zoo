@@ -23,11 +23,11 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/animals", animalsRouter);
 
-app.post("/ReadMore", (req, res) => {
-   const index = req.body.index;
-  const selectedAnimal = arrayOfAnimals[index];
+app.get("/ReadMore", (req, res) => {
+   const index = req.query.index;
+   const selectedAnimal = arrayOfAnimals[index];
    console.log(selectedAnimal);
-  res.render("pages/readmore.ejs", {selectedAnimal, Animal, arrayOfAnimals}); 
+   res.render("pages/readmore.ejs", {selectedAnimal, Animal, arrayOfAnimals});
 });
 
 app.listen(port, () => {
