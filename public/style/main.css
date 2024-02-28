@@ -1,4 +1,4 @@
-* {
+* { 
     box-sizing: border-box;
 }
 
@@ -7,37 +7,36 @@ body {
     margin: 0;
 }
 
-header {
+header { 
     background-color: #9CAFB7;
     margin: 0;
 }
-
 .nav-menu {
     margin: 0;
     display: flex;
     padding: 10px;
     justify-content: space-evenly;
+  
+ }
 
-}
-
-ul {
+ ul { 
     list-style-type: none;
-}
+ }
 
-li {
+ li { 
     padding: 10px;
-}
+ }
 
-.wrapper {
+ .wrapper { 
     height: 100vh;
     display: flex;
-
-}
+   
+ }
 
 .main-content {
-    flex: 3;
+    flex: 3; 
     background-color: #E6B89C;
-    padding: 20px;
+    padding: 20px; 
 }
 
 .sidebar {
@@ -46,6 +45,11 @@ li {
     height: 100%;
 }
 
-footer {
-    background-color: #9CAFB7;
-}
+  .animal-img {
+    padding: 15px;
+
+    height: auto;
+    width: 100%;
+    margin: 0;
+    align-self: center;
+  }
