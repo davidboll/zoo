@@ -197,7 +197,7 @@ const emu = new Animal(
 
   let arrayOfAnimals = [frillNeckedLizard, blueTongued, taipanSnake, frilledDragon, stimsonPython, goanna, cassowary, echidna, wallabies, tasmanian_Devil, koala, kookaburra, lorikeet, emu ];
 
-  const showAnimalInfo = (animal) => {
+  const showAnimalInfo = (animal, index) => {
     $(".welcome").addClass("inactive");
     $(".main-content")
       .empty()
@@ -212,6 +212,10 @@ const emu = new Animal(
       <p class="animal-p weight">This animal usually weighs ${animal.weight}</p>
       <p class="animal-p location">This animal usually lives in ${animal.location}</p>
       <p class="animal-p link"><a href="/animals/${animal.group}/">This animal belongs to the ${animal.group} group!</a></p>
+        <form action="/ReadMore" method="post">
+            <input type="hidden" name="index" value="${index}">
+            <button type="submit" class="read-more-btn">Read More</button>
+        </form>
     `
       )
       .hide()
