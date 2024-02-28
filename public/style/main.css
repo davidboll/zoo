@@ -13,17 +13,27 @@ body {
     font-family: 'animalFont';
     font-size: 1.3rem;
   background-color: #ead2ac;
+  flex-direction: column;
   margin: 0;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
 }
 
 header {
+  align-items: center;
   background-color: #9cafb7;
+  display: flex;
+  flex-direction: row;
   margin: 0;
+  justify-content: center;
 }
 
+.logo {
+  padding: 10px;
+  margin: 0;
+  height: 50px;
+  width: auto;
+}
 .nav-menu {
   margin: 0;
   display: flex;
@@ -40,16 +50,20 @@ li {
 }
 
 .wrapper {
+  height: 100vh;
   display: flex;
-  flex-direction: row;
 }
 
 .main-content {
   flex: 3;
+  background-color: #e6b89c;
   padding: 20px;
 }
 
 .sidebar {
+  flex: 1;
+  background-color: #fe938c;
+  height: 100%;
   flex: 1;
   padding: 20px;
 }
@@ -64,10 +78,11 @@ li {
 }
 
 .animal-img {
+  align-self: center;
   padding: 15px;
   height: auto;
-  margin: 0 auto;
   width: 100%;
+  margin: 0;
 }
 
 .animal {
