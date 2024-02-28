@@ -47,9 +47,12 @@ header {
 
   .animal-img {
     padding: 15px;
-
     height: auto;
     width: 100%;
     margin: 0;
     align-self: center;
+  }
+
+  .animal { 
+    cursor: pointer;
   }
