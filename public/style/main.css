@@ -8,13 +8,30 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #ead2ac;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   background-color: #9cafb7;
   margin: 0;
+  background-color: #9cafb7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
+.logo {
+  padding: 10px;
+  margin: 0;
+  height: 50px;
+  width: auto;
+}
 .nav-menu {
   margin: 0;
   display: flex;
@@ -31,16 +48,20 @@ li {
 }
 
 .wrapper {
+  height: 100vh;
   display: flex;
-  flex-direction: row;
 }
 
 .main-content {
   flex: 3;
+  background-color: #e6b89c;
   padding: 20px;
 }
 
 .sidebar {
+  flex: 1;
+  background-color: #fe938c;
+  height: 100%;
   flex: 1;
   padding: 20px;
 }
@@ -57,8 +78,13 @@ li {
 .animal-img {
   padding: 15px;
   height: auto;
-  margin: 0 auto;
   width: 100%;
+  margin: 0;
+  align-self: center;
+}
+
+.animal {
+  cursor: pointer;
 }
 
 .animal {
