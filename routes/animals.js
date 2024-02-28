@@ -17,4 +17,6 @@ animalsRouter.get("/reptiles", (req, res) => {
 animalsRouter.get("/birds", (req, res) => {
   res.render("pages/birds.ejs"); 
 });
+
+
 export default animalsRouter;
