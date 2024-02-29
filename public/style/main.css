@@ -67,14 +67,16 @@ li {
 
 .wrapper {
   display: flex;
-  height: 100vh;
+  flex-grow: 1; 
 }
+
 
 .main-content {
   flex: 3;
   background-color: #e6b89c;
   padding: 20px;
-  height: 100vh
+  flex-grow: 1;
+  overflow-y: auto; 
 }
 
 .sidebar {
@@ -95,6 +97,7 @@ li {
   background-color: #fe938c;
   height: auto;
   margin: 0;
+  flex-grow: 1;
 }
 
 .animal-img {
@@ -143,6 +146,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+   margin-top: auto; 
 }
 @media (min-width: 768px) {
   .wrapper {
