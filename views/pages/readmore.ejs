@@ -3,14 +3,20 @@
     <%- include("../partials/head") %>
 <body>
 
-<h1>Read More</h1>
+<h1 class="detail-title">Read More</h1>
 
 <!-- Display details of the selected animal -->
 <% if (selectedAnimal) {  %>
+    <div class="detail-content"> 
 <h2>Name: <%= selectedAnimal.name %></h2>
  <img class="animal-img" src="<%= selectedAnimal.smallimg %>">
 <p>Lifespan: <%= selectedAnimal.lifespan %></p>
 <p>Lifespan: <%= selectedAnimal.description %></p>
-<%  } %>
+ <p>This animal is usually <%= selectedAnimal.length %> </p>
+ <p>This animal usually weighs    <%= selectedAnimal.weight %> </p>
+ <p>This animal usually lives in <%= selectedAnimal.location %> </p>
+ <%  } %>
+    </div> 
+        <%- include('../partials/footer') %>
 </body>
 </html>
